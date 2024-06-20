@@ -7,12 +7,12 @@ import BadgerBudsBasket from "./pages/BadgerBudsBasket"
 import BadgerBudsNoMatch from "./pages/BadgerBudsNoMatch"
 
 export default function BadgerBudsRouter() {
-    return <BrowserRouter>
+    return <BrowserRouter basename="/badger-buds">
         <Routes>
-            <Route path="/badger-buds/" element={<BadgerBuds />}>
+            <Route path="/" element={<BadgerBuds />}>
                 <Route index element={<BadgerBudsLanding />} />
-                <Route path="/available-cats" element={<BadgerBudsAdoptable />} />
-                <Route path="/basket" element={<BadgerBudsBasket />} />
+                <Route path="available-cats" element={<BadgerBudsAdoptable />} />
+                <Route path="basket" element={<BadgerBudsBasket />} />
                 <Route path="*" element={<BadgerBudsNoMatch />} />
             </Route>
         </Routes>
