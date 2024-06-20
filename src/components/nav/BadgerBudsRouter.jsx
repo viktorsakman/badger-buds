@@ -9,7 +9,7 @@ import BadgerBudsNoMatch from "./pages/BadgerBudsNoMatch"
 export default function BadgerBudsRouter() {
     return <BrowserRouter>
         <Routes>
-            <Route path="/" element={<BadgerBuds />}>
+            <Route path="/badger-buds" element={<BadgerBuds />}>
                 <Route index element={<BadgerBudsLanding />} />
                 <Route path="available-cats" element={<BadgerBudsAdoptable />} />
                 <Route path="basket" element={<BadgerBudsBasket />} />
