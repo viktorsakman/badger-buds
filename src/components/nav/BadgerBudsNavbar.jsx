@@ -20,9 +20,9 @@ export default function BadgerBudsNavbar(props) {
             </Navbar.Brand>
             <Navbar.Collapse id="responsive-navbar-nav" className="me-auto">
                 <Nav>
-                    <Nav.Link as={Link} to="/">Home</Nav.Link>
-                    <Nav.Link as={Link} to="/available-cats">Available Cats</Nav.Link>
-                    <Nav.Link as={Link} to="/basket">My Basket</Nav.Link>
+                    <Nav.Link as={Link} to="/badger-buds/">Home</Nav.Link>
+                    <Nav.Link as={Link} to="/badger-buds/available-cats">Available Cats</Nav.Link>
+                    <Nav.Link as={Link} to="/badger-buds/basket">My Basket</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
