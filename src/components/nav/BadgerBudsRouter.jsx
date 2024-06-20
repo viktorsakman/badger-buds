@@ -11,8 +11,8 @@ export default function BadgerBudsRouter() {
         <Routes>
             <Route path="/badger-buds/" element={<BadgerBuds />}>
                 <Route index element={<BadgerBudsLanding />} />
-                <Route path="/badger-buds/available-cats" element={<BadgerBudsAdoptable />} />
-                <Route path="/badger-buds/basket" element={<BadgerBudsBasket />} />
+                <Route path="/available-cats" element={<BadgerBudsAdoptable />} />
+                <Route path="/basket" element={<BadgerBudsBasket />} />
                 <Route path="*" element={<BadgerBudsNoMatch />} />
             </Route>
         </Routes>
