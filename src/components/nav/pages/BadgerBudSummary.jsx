@@ -51,7 +51,7 @@ const Summary = (props) => {
                             <Carousel.Item key={index}>
                                 <img
                                     className="d-block w-100"
-                                    src={"https://raw.githubusercontent.com/CS571-F23/hw5-api-static-content/main/cats/" + imgId}
+                                    src={"https://raw.githubusercontent.com/CS571-S24/hw5-api-static-content/main/cats/" + imgId}
                                     alt={`Image ${index + 1} of ${props.name}`}
                                     style={{
                                         objectFit: "cover",
@@ -66,7 +66,7 @@ const Summary = (props) => {
                 } else {
                     return (
                         <Card.Img
-                            src={"https://raw.githubusercontent.com/CS571-F23/hw5-api-static-content/main/cats/" + props.imgIds[0]}
+                            src={"https://raw.githubusercontent.com/CS571-S24/hw5-api-static-content/main/cats/" + props.imgIds[0]}
                             alt={`A picture of ${props.name}`}
                             style={{
                                 objectFit: "cover",
